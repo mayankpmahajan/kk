@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
 
               {/* Elegant Stats */}
-              <div className="grid grid-cols-2 gap-8 pt-8 border-t border-gray-700/50">
+              <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-700/50">
                 <div>
                   <div className="text-3xl font-light text-white mb-2">
                     50K+
@@ -36,8 +36,14 @@ const Footer = () => {
                 </div>
                 <div>
                   <div className="text-3xl font-light text-white mb-2">100</div>
+                  <div className="text-xs tracking-widest text-gray-400 font-medium">
+                    TOP CIOs
+                  </div>
+                </div>
+                <div>
+                  <div className="text-3xl font-light text-white mb-2">2</div>
                   <div className="text-xs uppercase tracking-widest text-gray-400 font-medium">
-                    Top CIOs
+                    Platforms
                   </div>
                 </div>
               </div>
