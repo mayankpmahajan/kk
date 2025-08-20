@@ -8,10 +8,11 @@ const HostSection = () => {
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-podcast-lightPurple">
               <img
-                src="/lovable-uploads/a920fba8-098d-48ac-a712-34c30927ee1d.png"
-                alt="Karthikeyan Krishnan (KK)"
-                className="w-full h-full object-cover object-center"
-              />
+  src="/lovable-uploads/a920fba8-098d-48ac-a712-34c30927ee1d.png"
+  alt="Karthikeyan Krishnan (KK)"
+  className="w-full h-full object-cover object-top"
+  style={{ objectPosition: "center 20%" }} 
+/>
             </div>
           </div>
 
@@ -42,7 +43,7 @@ const HostSection = () => {
             </p>
 
             <Button
-              className="bg-podcast-blue hover:bg-podcast-navy flex items-center gap-2"
+              className="bg-podcast-blue hover:bg-podcast-navy flex items-center gap-2 w-72"
               asChild
             >
               <a
