@@ -40,8 +40,8 @@ const Hero = () => {
             of business through technology.
           </p>
           <p className="text-lg md:text-xl text-white/90 mb-10 drop-shadow-lg">
-            Stories of transformation, leadership, innovation — straight from
-            the people behind the change.
+            Stories of transformation, leadership, innovation straight from the
+            people behind the change.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -59,7 +59,7 @@ const Hero = () => {
               className="text-white hover:text-podcast-blue hover:bg-white/20 border border-white/20 px-8 py-3 text-lg rounded-lg shadow-2xl backdrop-blur-sm"
               onClick={() => navigate("/be-a-guest")}
             >
-              Be a Guest
+              Apply to Be a Guest
             </Button>
           </div>
         </div>

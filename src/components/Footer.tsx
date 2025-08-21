@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Youtube } from "lucide-react";
+import { Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -25,27 +25,19 @@ const Footer = () => {
               </div>
 
               {/* Elegant Stats */}
-              <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-700/50">
+              <div className="grid grid-cols-2 gap-8 pt-8 border-t border-gray-700/50">
                 <div>
-                  <div className="text-3xl font-light text-white mb-2">50+</div>
+                  <div className="text-3xl font-light text-white mb-2">
+                    50K+
+                  </div>
                   <div className="text-xs uppercase tracking-widest text-gray-400 font-medium">
-                    Distinguished Episodes
+                    Views per Episode
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-light text-white mb-2">
-                    25K+
-                  </div>
+                  <div className="text-3xl font-light text-white mb-2">100</div>
                   <div className="text-xs uppercase tracking-widest text-gray-400 font-medium">
-                    Executive Audience
-                  </div>
-                </div>
-                <div>
-                  <div className="text-3xl font-light text-white mb-2">
-                    100+
-                  </div>
-                  <div className="text-xs uppercase tracking-widest text-gray-400 font-medium">
-                    Industry Leaders
+                    Top CIOs
                   </div>
                 </div>
               </div>
@@ -96,39 +88,6 @@ const Footer = () => {
                 Connect
               </h4>
 
-              {/* Contact Information */}
-              <div className="space-y-6 mb-8">
-                <div className="flex items-start gap-4">
-                  <Mail className="w-5 h-5 text-podcast-blue mt-0.5 flex-shrink-0" />
-                  <div>
-                    <div className="text-sm text-gray-400 uppercase tracking-wide font-medium mb-1">
-                      Email
-                    </div>
-                    <a
-                      href="mailto:hello@ciodiary.com"
-                      className="text-gray-300 hover:text-white transition-colors font-light"
-                    >
-                      hello@ciodiary.com
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-4">
-                  <Mail className="w-5 h-5 text-podcast-blue mt-0.5 flex-shrink-0" />
-                  <div>
-                    <div className="text-sm text-gray-400 uppercase tracking-wide font-medium mb-1">
-                      Guest Relations
-                    </div>
-                    <a
-                      href="mailto:guest@ciodiary.com"
-                      className="text-gray-300 hover:text-white transition-colors font-light"
-                    >
-                      guest@ciodiary.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-
               {/* Social Links - Minimalist */}
               <div className="space-y-3">
                 <h5 className="text-xs uppercase tracking-widest text-gray-500 font-medium mb-4">
@@ -141,7 +100,7 @@ const Footer = () => {
                   className="flex items-center gap-3 text-gray-300 hover:text-white transition-all duration-300 group"
                 >
                   <Youtube className="w-4 h-4 text-gray-500 group-hover:text-podcast-blue transition-colors" />
-                  <span className="font-light">YouTube Channel</span>
+                  <span className="font-light">YouTube</span>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/karthikeyank/"
@@ -150,7 +109,7 @@ const Footer = () => {
                   className="flex items-center gap-3 text-gray-300 hover:text-white transition-all duration-300 group"
                 >
                   <Linkedin className="w-4 h-4 text-gray-500 group-hover:text-podcast-blue transition-colors" />
-                  <span className="font-light">Professional Network</span>
+                  <span className="font-light">Linkedin</span>
                 </a>
               </div>
             </div>

@@ -8,10 +8,10 @@ import HostSection from "@/components/HostSection";
 import Navbar from "@/components/Navbar";
 import PromoVideosSection from "@/components/PromoVideosSection";
 import SEO from "@/components/SEO";
+import StatsStripe from "@/components/StatsStripe";
+import TestimonialStripe from "@/components/TestimonialStripe";
 
 const Index = () => {
-
-  
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
@@ -29,10 +29,6 @@ const Index = () => {
     },
   };
 
-
-
-
-
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
@@ -42,8 +38,10 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <StatsStripe />
         <FeaturedEpisode />
         <AboutSection />
+        <TestimonialStripe />
         <PromoVideosSection />
         <EpisodesSection />
         <HostSection />
