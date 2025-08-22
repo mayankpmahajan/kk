@@ -14,8 +14,8 @@ const StatsStripe = () => {
     },
     {
       icon: <Award className="w-5 h-5" />,
-      number: "Top 10",
-      label: "IT Leadership",
+      number: "2",
+      label: "Platforms",
     },
   ];
   return (

@@ -31,7 +31,7 @@ const ContactSection = () => {
 
     try {
       // Using Formspree API
-      const response = await fetch("https://formspree.io/f/movlzgnp", {
+      const response = await fetch("https://formspree.io/f/mnnzezpw", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
